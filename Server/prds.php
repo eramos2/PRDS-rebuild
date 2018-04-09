@@ -1,9 +1,10 @@
 <?php
 
 //My SQL Credentials
-$host = "136.145.116.231";
-$user = 'root';
-$pass = 'Capstone2014';
+#$host = "136.145.116.231";
+$host = "prdsdbinstance.cqkq0nssraiz.us-east-1.rds.amazonaws.com";
+$user = 'prds';
+$pass = 'Chambe4jala.';
 $dbn = 'prd';
 
 $endpoint = $_REQUEST['endpoint'];
